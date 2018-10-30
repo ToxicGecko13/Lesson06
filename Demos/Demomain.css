@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+.navbar {
+    /* margin: 0;
+    padding: 0; */
+    background-color: black;
+    /* wisth: 200px; */
+    width: 100%;
+}
+
+.dropbutton {
+    display: none;
+
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: gray;
+}
+
+#aboutmenu {
+    float: right;
+}
