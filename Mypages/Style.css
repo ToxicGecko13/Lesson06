@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: lightgray;
     position: absolute;
@@ -9,27 +14,30 @@ body {
 .navbar {
     background-color: black;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .Imgbutton {
     display: none;
 }
 
-.navbar a {
+.navbar .navbuttons {
     display: inline-block;
     padding: 14px 16px;
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
     font-size: 16px;
     text-align: center;
 }
 
-.navbar a:hover {
+.navbar .navbuttons:hover {
     background-color: gray;
 }
 
 #Homebutton {
-    float: right;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 h1 {
@@ -39,21 +47,33 @@ h1 {
 
 h2 {
     font-size: 50px;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
 img {
     width: 70%;
     height: auto;
-    margin: 5%;
+    margin: 4%;
     border: 50px;
     border-color: darkgray;
     border-style: solid;
-    
+    filter: drop-shadow(1.5px 1.5px 1.5px);
 }
 
-img:hover {
-    filter: drop-shadow(16px 20px 20px);
-    transition-duration: 0.3s;
+.Homeimgs {
+    margin-top: 1%;
+}
+
+.Homeimgs:hover {
+    filter: drop-shadow(6px 10px 10px);
+    transition-duration: 0.1s;
     transition-timing-function: ease;
+    box-shadow: darkgrey;
+}
+
+.HomeImgButtons {
+    box-shadow: darkgrey;
+    text-decoration: none;
+    color: black;
+    margin-top: 1%;
 }
